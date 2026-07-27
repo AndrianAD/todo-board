@@ -232,12 +232,20 @@
   cursor: grab;
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
   /* Без цього мобільні браузери на довгому натисканні виділяють текст або
      показують контекстне меню замість того, щоб dnd-kit почав перетягування. */
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
+}
+
+.task-card__created-at {
+  font-size: 0.7rem;
+  color: #97a0af;
 }
 
 .task-card__delete-btn,

@@ -60,6 +60,14 @@ export function TaskCard({ task, onStatusChange, onDelete, onEditTitle }: TaskCa
     }
   };
 
+  const formattedCreatedAt = new Date(task.createdAt).toLocaleString('uk-UA', {
+    day: '2-digit',
+    month: '2-digit',
+    year: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+
   if (isEditing) {
     return (
       <div
@@ -97,6 +105,9 @@ export function TaskCard({ task, onStatusChange, onDelete, onEditTitle }: TaskCa
         <div className="task-card__drag-handle" {...listeners} {...attributes} onDoubleClick={startEditing}>
           <span className={`task-card__title${task.status === 'done' ? ' task-card__title--done' : ''}`}>
             {task.title}
+          </span>
+          <span className="task-card__created-at" title="Дата створення">
+            {formattedCreatedAt}
           </span>
         </div>
         <button
