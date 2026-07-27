@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { useDroppable } from '@dnd-kit/core';
+import { SortableContext, verticalListSortingStrategy } from '@dnd-kit/sortable';
 
 interface ColumnProps {
   id: string;
@@ -7,10 +8,11 @@ interface ColumnProps {
   accentColor?: string;
   headerAction?: ReactNode;
   onDelete?: () => void;
+  taskIds: string[];
   children: ReactNode;
 }
 
-export function Column({ id, title, accentColor, headerAction, onDelete, children }: ColumnProps) {
+export function Column({ id, title, accentColor, headerAction, onDelete, taskIds, children }: ColumnProps) {
   const { setNodeRef, isOver } = useDroppable({ id });
 
   return (
@@ -36,7 +38,11 @@ export function Column({ id, title, accentColor, headerAction, onDelete, childre
           )}
         </div>
       </div>
-      <div className="column__body">{children}</div>
+      <div className="column__body">
+        <SortableContext items={taskIds} strategy={verticalListSortingStrategy}>
+          {children}
+        </SortableContext>
+      </div>
     </div>
   );
 }

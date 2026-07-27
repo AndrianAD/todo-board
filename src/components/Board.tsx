@@ -87,18 +87,41 @@ export function Board({ board, saving, onMutate }: BoardProps) {
     if (!over) return;
 
     const taskId = String(active.id);
-    const targetId = String(over.id);
-    const assigneeId = targetId === BACKLOG_COLUMN_ID ? null : targetId;
+    const overId = String(over.id);
+    if (taskId === overId) return;
+
+    const isOverColumn = overId === BACKLOG_COLUMN_ID || board.users.some((user) => user.id === overId);
 
     onMutate((current) => {
-      const task = current.tasks.find((item) => item.id === taskId);
-      if (!task || task.assigneeId === assigneeId) return current;
-      return {
-        ...current,
-        tasks: current.tasks.map((item) =>
-          item.id === taskId ? { ...item, assigneeId } : item
-        ),
-      };
+      const draggedTask = current.tasks.find((item) => item.id === taskId);
+      if (!draggedTask) return current;
+
+      const withoutDragged = current.tasks.filter((item) => item.id !== taskId);
+
+      if (isOverColumn) {
+        const assigneeId = overId === BACKLOG_COLUMN_ID ? null : overId;
+        // Кладемо в кінець колонки (порядок усередині колонки визначається
+        // позицією елемента у спільному масиві tasks).
+        return {
+          ...current,
+          tasks: [...withoutDragged, { ...draggedTask, assigneeId }],
+        };
+      }
+
+      // Перетягнули на іншу картку: та сама колонка (переставити місцями)
+      // або інша (перемістити й одразу поставити на цю позицію).
+      const overTask = current.tasks.find((item) => item.id === overId);
+      const assigneeId = overTask ? overTask.assigneeId : draggedTask.assigneeId;
+      const overIndex = withoutDragged.findIndex((item) => item.id === overId);
+      const updatedDragged = { ...draggedTask, assigneeId };
+
+      if (overIndex === -1) {
+        return { ...current, tasks: [...withoutDragged, updatedDragged] };
+      }
+
+      const nextTasks = [...withoutDragged];
+      nextTasks.splice(overIndex, 0, updatedDragged);
+      return { ...current, tasks: nextTasks };
     });
   };
 
@@ -122,6 +145,7 @@ export function Board({ board, saving, onMutate }: BoardProps) {
             id={BACKLOG_COLUMN_ID}
             title="Backlog"
             headerAction={<span className="column__count">{backlogTasks.length}</span>}
+            taskIds={backlogTasks.map((task) => task.id)}
           >
             <AddTaskForm onAdd={handleAddTask} disabled={saving} />
             {backlogTasks.map((task) => (
@@ -145,6 +169,7 @@ export function Board({ board, saving, onMutate }: BoardProps) {
                 accentColor={user.color}
                 headerAction={<span className="column__count">{userTasks.length}</span>}
                 onDelete={() => setUserPendingDeletion(user)}
+                taskIds={userTasks.map((task) => task.id)}
               >
                 {userTasks.map((task) => (
                   <TaskCard

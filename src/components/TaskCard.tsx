@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { KeyboardEvent } from 'react';
-import { useDraggable } from '@dnd-kit/core';
+import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { ConfirmDialog } from './ConfirmDialog';
 import { TASK_STATUSES, TASK_STATUS_LABELS } from '../types';
@@ -17,13 +17,14 @@ export function TaskCard({ task, onStatusChange, onDelete, onEditTitle }: TaskCa
   const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editedTitle, setEditedTitle] = useState(task.title);
-  const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
+  const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({
     id: task.id,
     disabled: isEditing,
   });
 
   const style = {
-    transform: CSS.Translate.toString(transform),
+    transform: CSS.Transform.toString(transform),
+    transition,
   };
 
   const handleConfirmDelete = () => {
@@ -62,6 +63,7 @@ export function TaskCard({ task, onStatusChange, onDelete, onEditTitle }: TaskCa
   if (isEditing) {
     return (
       <div
+        ref={setNodeRef}
         style={style}
         className={`task-card task-card--${task.status} task-card--editing`}
       >
