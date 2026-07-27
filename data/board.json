@@ -62,6 +62,13 @@
       "createdAt": "2026-07-27T14:44:06.916Z",
       "assigneeId": null,
       "status": "in_progress"
+    },
+    {
+      "id": "75aeaba7-d014-42ad-b970-297d753aa08f",
+      "title": "Фікс кнопки очищення пошуку",
+      "createdAt": "2026-07-27T15:27:44.897Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
