@@ -202,7 +202,6 @@
   border-left: 4px solid #a5adba;
   padding: 0.6rem 0.7rem;
   box-shadow: 0 1px 2px rgba(9, 30, 66, 0.15);
-  touch-action: none;
 }
 
 .task-card--opened {
@@ -233,6 +232,12 @@
   cursor: grab;
   flex: 1;
   min-width: 0;
+  /* Без цього мобільні браузери на довгому натисканні виділяють текст або
+     показують контекстне меню замість того, щоб dnd-kit почав перетягування. */
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .task-card__delete-btn,
