@@ -55,6 +55,13 @@
       "createdAt": "2026-07-27T13:42:42.177Z",
       "assigneeId": "d65060df-440b-4a9d-b427-815eabff906e",
       "status": "in_progress"
+    },
+    {
+      "id": "73939e1c-db81-437c-9a4b-621c14c43945",
+      "title": "Error on clearing Project or Assignment search field",
+      "createdAt": "2026-07-27T14:44:06.916Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
