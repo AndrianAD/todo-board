@@ -76,6 +76,13 @@
       "createdAt": "2026-07-27T14:44:06.916Z",
       "assigneeId": null,
       "status": "opened"
+    },
+    {
+      "id": "91f49e80-39ca-4e00-8633-a580f7edaddf",
+      "title": "autosynk",
+      "createdAt": "2026-07-27T16:05:33.017Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
