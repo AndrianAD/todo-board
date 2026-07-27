@@ -1,0 +1,21 @@
+name: Diagnose PAT
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PAT auth against API
+        env:
+          PAT: ${{ secrets.BOARD_WRITE_PAT }}
+        run: |
+          echo "PAT length: ${#PAT}"
+          code=$(curl -s -o /tmp/resp.json -w "%{http_code}" -H "Authorization: Bearer $PAT" https://api.github.com/repos/AndrianAD/todo-board)
+          echo "HTTP status: $code"
+          cat /tmp/resp.json
+          echo ""
+          echo "--- write test (PUT, dry sha check) ---"
+          curl -s -H "Authorization: Bearer $PAT" https://api.github.com/repos/AndrianAD/todo-board/contents/data/board.json -o /tmp/board.json -w "GET status: %{http_code}\n"
+          cat /tmp/board.json

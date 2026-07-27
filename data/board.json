@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "d65060df-440b-4a9d-b427-815eabff906e",
+      "name": "Андріан",
+      "color": "#4c6ef5"
+    },
+    {
+      "id": "f1b82113-3c06-4832-ad37-457bde6bf11e",
+      "name": "Мітя",
+      "color": "#4c6ef5"
+    },
+    {
+      "id": "171595fd-cc40-4f2d-9206-d65600e49cff",
+      "name": "Таня",
+      "color": "#4c6ef5"
+    },
+    {
+      "id": "afe60d52-7327-45c1-b9ba-fc1aef9a5067",
+      "name": "Віталій",
+      "color": "#4c6ef5"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "52e4b1b0-93e1-47f6-91cd-7e00aa6c0b5e",
+      "title": "на асаймент лісті немає фільтра вгорі Counter/Approver",
+      "createdAt": "2026-07-27T12:21:25.625Z",
+      "assigneeId": null,
+      "status": "opened"
+    },
+    {
+      "id": "356953cd-306b-4104-8e7b-b6b72b182f05",
+      "title": "Не працює last visited screen",
+      "createdAt": "2026-07-27T12:35:24.476Z",
+      "assigneeId": "d65060df-440b-4a9d-b427-815eabff906e",
+      "status": "done"
+    },
+    {
+      "id": "80c6a943-c87f-4974-9264-5c8ef55ac165",
+      "title": "Items list має бути в bottom sheet",
+      "createdAt": "2026-07-27T12:35:47.609Z",
+      "assigneeId": null,
+      "status": "opened"
+    },
+    {
+      "id": "1c47b1fb-36d1-4b1c-89fb-b248632bef52",
+      "title": "на items list показуєм лист першу фотку якщо вона є і удаляєм коунтер",
+      "createdAt": "2026-07-27T12:36:04.423Z",
+      "assigneeId": "d65060df-440b-4a9d-b427-815eabff906e",
+      "status": "done"
+    },
+    {
+      "id": "c832c566-5daf-4a43-a39c-3c8d7aa0d0f2",
+      "title": "на асаймент лист WTW name  і текст під ним вирівнян по центру, а треба щоб був на початку екрана",
+      "createdAt": "2026-07-27T12:38:07.442Z",
+      "assigneeId": null,
+      "status": "opened"
+    }
+  ]
+}
