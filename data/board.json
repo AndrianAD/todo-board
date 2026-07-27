@@ -69,6 +69,13 @@
       "createdAt": "2026-07-27T14:44:06.916Z",
       "assigneeId": null,
       "status": "in_progress"
+    },
+    {
+      "id": "02f3c2b3-305d-45e7-bec3-08cec5fe46c5",
+      "title": "Pull to refresh indicator - не показує коректно сінк",
+      "createdAt": "2026-07-27T15:36:28.668Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
