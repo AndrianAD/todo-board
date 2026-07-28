@@ -109,6 +109,13 @@
       "createdAt": "2026-07-28T13:40:15.318Z",
       "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
       "status": "opened"
+    },
+    {
+      "id": "8e7d572d-3bd7-455b-b3eb-577fb610b3b9",
+      "title": "Legal hold не працює на видалення селекшенах",
+      "createdAt": "2026-07-28T14:03:39.020Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
