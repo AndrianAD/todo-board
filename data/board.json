@@ -90,6 +90,13 @@
       "status": "opened"
     },
     {
+      "id": "d43c9820-54d2-41f0-aaee-85707e0e7b1a",
+      "title": "ULI показується на Items",
+      "createdAt": "2026-07-28T14:03:11.138Z",
+      "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
+      "status": "opened"
+    },
+    {
       "id": "9f1b9b94-77a5-4618-b79c-09606a88d2bf",
       "title": "на sub-items фоки не грузяться, постійний loader",
       "createdAt": "2026-07-28T14:02:29.533Z",
@@ -101,13 +108,6 @@
       "title": "Фікс Біометрики при старті і після 15 хв",
       "createdAt": "2026-07-28T13:40:15.318Z",
       "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
-      "status": "opened"
-    },
-    {
-      "id": "d43c9820-54d2-41f0-aaee-85707e0e7b1a",
-      "title": "ULI показується на Items",
-      "createdAt": "2026-07-28T14:03:11.138Z",
-      "assigneeId": null,
       "status": "opened"
     }
   ]
