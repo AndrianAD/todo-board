@@ -88,6 +88,13 @@
       "createdAt": "2026-07-27T14:44:06.916Z",
       "assigneeId": null,
       "status": "opened"
+    },
+    {
+      "id": "cebf9d67-ff71-4590-a55e-45ea436c5a3f",
+      "title": "Фікс Біометрики при старті і після 15 хв",
+      "createdAt": "2026-07-28T13:40:15.318Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
