@@ -121,6 +121,13 @@
       "createdAt": "2026-07-28T13:40:15.318Z",
       "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
       "status": "in_progress"
+    },
+    {
+      "id": "52901fce-4a20-4a58-8eeb-e955dfd971d9",
+      "title": "Root",
+      "createdAt": "2026-07-29T16:35:29.882Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
