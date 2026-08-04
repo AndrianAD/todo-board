@@ -128,13 +128,6 @@
       "status": "in_progress"
     },
     {
-      "id": "52901fce-4a20-4a58-8eeb-e955dfd971d9",
-      "title": "Root",
-      "createdAt": "2026-07-29T16:35:29.882Z",
-      "assigneeId": null,
-      "status": "opened"
-    },
-    {
       "id": "a9a45f1e-63cd-4be6-a40e-802a25f200ec",
       "title": "loaders при загрузці екрана",
       "createdAt": "2026-07-31T11:45:09.654Z",
