@@ -147,6 +147,13 @@
       "createdAt": "2026-07-31T11:44:56.665Z",
       "assigneeId": "2ed65081-b6af-48ea-97cb-8b89e5e9d5ee",
       "status": "opened"
+    },
+    {
+      "id": "cac490c3-35ea-455d-9a29-2245ad3f6a70",
+      "title": "асаймент ліст",
+      "createdAt": "2026-08-04T12:08:42.822Z",
+      "assigneeId": null,
+      "status": "opened"
     }
   ]
 }
