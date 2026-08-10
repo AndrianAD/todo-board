@@ -14,11 +14,6 @@
       "id": "2ed65081-b6af-48ea-97cb-8b89e5e9d5ee",
       "name": "30.04",
       "color": "#4c6ef5"
-    },
-    {
-      "id": "1e057bc9-d315-459a-9676-4f646935c0b5",
-      "name": "4.08",
-      "color": "#4c6ef5"
     }
   ],
   "tasks": [
@@ -145,7 +140,7 @@
       "id": "cac490c3-35ea-455d-9a29-2245ad3f6a70",
       "title": "асаймент ліст",
       "createdAt": "2026-08-04T12:08:42.822Z",
-      "assigneeId": "1e057bc9-d315-459a-9676-4f646935c0b5",
+      "assigneeId": null,
       "status": "opened"
     }
   ]
