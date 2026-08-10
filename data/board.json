@@ -9,11 +9,6 @@
       "id": "a95eeb46-de15-4529-8e92-4154045f491a",
       "name": "28.04",
       "color": "#4c6ef5"
-    },
-    {
-      "id": "2ed65081-b6af-48ea-97cb-8b89e5e9d5ee",
-      "name": "30.04",
-      "color": "#4c6ef5"
     }
   ],
   "tasks": [
@@ -126,14 +121,14 @@
       "id": "a9a45f1e-63cd-4be6-a40e-802a25f200ec",
       "title": "loaders при загрузці екрана",
       "createdAt": "2026-07-31T11:45:09.654Z",
-      "assigneeId": "2ed65081-b6af-48ea-97cb-8b89e5e9d5ee",
+      "assigneeId": null,
       "status": "opened"
     },
     {
       "id": "4a15ed37-aefa-4d0a-8ceb-78b3a1d1dddf",
       "title": "decimal type переписування",
       "createdAt": "2026-07-31T11:44:56.665Z",
-      "assigneeId": "2ed65081-b6af-48ea-97cb-8b89e5e9d5ee",
+      "assigneeId": null,
       "status": "opened"
     },
     {
