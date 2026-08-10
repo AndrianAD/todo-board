@@ -123,13 +123,6 @@
       "createdAt": "2026-07-31T11:45:09.654Z",
       "assigneeId": null,
       "status": "opened"
-    },
-    {
-      "id": "4a15ed37-aefa-4d0a-8ceb-78b3a1d1dddf",
-      "title": "decimal type переписування",
-      "createdAt": "2026-07-31T11:44:56.665Z",
-      "assigneeId": null,
-      "status": "opened"
     }
   ]
 }
