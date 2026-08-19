@@ -7,13 +7,6 @@
       "createdAt": "2026-07-27T12:36:04.423Z",
       "assigneeId": null,
       "status": "in_progress"
-    },
-    {
-      "id": "9f1b9b94-77a5-4618-b79c-09606a88d2bf",
-      "title": "на sub-items фоки не грузяться, постійний loader",
-      "createdAt": "2026-07-28T14:02:29.533Z",
-      "assigneeId": null,
-      "status": "in_progress"
     }
   ]
 }
