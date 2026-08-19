@@ -1,12 +1,4 @@
 {
   "users": [],
-  "tasks": [
-    {
-      "id": "1c47b1fb-36d1-4b1c-89fb-b248632bef52",
-      "title": "на items list показуєм лист першу фотку якщо вона є і удаляєм коунтер",
-      "createdAt": "2026-07-27T12:36:04.423Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    }
-  ]
+  "tasks": []
 }
