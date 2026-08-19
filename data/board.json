@@ -13,13 +13,6 @@
   ],
   "tasks": [
     {
-      "id": "91f49e80-39ca-4e00-8633-a580f7edaddf",
-      "title": "autosynk",
-      "createdAt": "2026-07-27T16:05:33.017Z",
-      "assigneeId": "d65060df-440b-4a9d-b427-815eabff906e",
-      "status": "opened"
-    },
-    {
       "id": "75aeaba7-d014-42ad-b970-297d753aa08f",
       "title": "Фікс кнопки очищення пошуку",
       "createdAt": "2026-07-27T15:27:44.897Z",
