@@ -2,13 +2,6 @@
   "users": [],
   "tasks": [
     {
-      "id": "75aeaba7-d014-42ad-b970-297d753aa08f",
-      "title": "Фікс кнопки очищення пошуку",
-      "createdAt": "2026-07-27T15:27:44.897Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "02f3c2b3-305d-45e7-bec3-08cec5fe46c5",
       "title": "Pull to refresh indicator - не показує коректно сінк",
       "createdAt": "2026-07-27T15:36:28.668Z",
