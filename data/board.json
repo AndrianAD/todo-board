@@ -1,11 +1,5 @@
 {
-  "users": [
-    {
-      "id": "a95eeb46-de15-4529-8e92-4154045f491a",
-      "name": "28.04",
-      "color": "#4c6ef5"
-    }
-  ],
+  "users": [],
   "tasks": [
     {
       "id": "75aeaba7-d014-42ad-b970-297d753aa08f",
@@ -74,28 +68,28 @@
       "id": "8e7d572d-3bd7-455b-b3eb-577fb610b3b9",
       "title": "Legal hold не працює на видалення селекшенах",
       "createdAt": "2026-07-28T14:03:39.020Z",
-      "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
+      "assigneeId": null,
       "status": "in_progress"
     },
     {
       "id": "d43c9820-54d2-41f0-aaee-85707e0e7b1a",
       "title": "ULI показується на Items",
       "createdAt": "2026-07-28T14:03:11.138Z",
-      "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
+      "assigneeId": null,
       "status": "in_progress"
     },
     {
       "id": "9f1b9b94-77a5-4618-b79c-09606a88d2bf",
       "title": "на sub-items фоки не грузяться, постійний loader",
       "createdAt": "2026-07-28T14:02:29.533Z",
-      "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
+      "assigneeId": null,
       "status": "in_progress"
     },
     {
       "id": "cebf9d67-ff71-4590-a55e-45ea436c5a3f",
       "title": "Фікс Біометрики при старті і після 15 хв",
       "createdAt": "2026-07-28T13:40:15.318Z",
-      "assigneeId": "a95eeb46-de15-4529-8e92-4154045f491a",
+      "assigneeId": null,
       "status": "in_progress"
     }
   ]
