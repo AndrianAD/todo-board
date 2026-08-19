@@ -16,13 +16,6 @@
       "status": "in_progress"
     },
     {
-      "id": "80c6a943-c87f-4974-9264-5c8ef55ac165",
-      "title": "Items list має бути в bottom sheet",
-      "createdAt": "2026-07-27T12:35:47.609Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "c832c566-5daf-4a43-a39c-3c8d7aa0d0f2",
       "title": "на асаймент лист WTW name  і текст під ним вирівнян по центру, а треба щоб був на початку екрана",
       "createdAt": "2026-07-27T12:38:07.442Z",
