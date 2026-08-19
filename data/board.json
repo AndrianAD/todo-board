@@ -2,13 +2,6 @@
   "users": [],
   "tasks": [
     {
-      "id": "356953cd-306b-4104-8e7b-b6b72b182f05",
-      "title": "Не працює last visited screen",
-      "createdAt": "2026-07-27T12:35:24.476Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "1c47b1fb-36d1-4b1c-89fb-b248632bef52",
       "title": "на items list показуєм лист першу фотку якщо вона є і удаляєм коунтер",
       "createdAt": "2026-07-27T12:36:04.423Z",
