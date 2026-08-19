@@ -2,13 +2,6 @@
   "users": [],
   "tasks": [
     {
-      "id": "02f3c2b3-305d-45e7-bec3-08cec5fe46c5",
-      "title": "Pull to refresh indicator - не показує коректно сінк",
-      "createdAt": "2026-07-27T15:36:28.668Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "356953cd-306b-4104-8e7b-b6b72b182f05",
       "title": "Не працює last visited screen",
       "createdAt": "2026-07-27T12:35:24.476Z",
