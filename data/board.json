@@ -23,13 +23,6 @@
       "status": "in_progress"
     },
     {
-      "id": "ebb3953d-1bc1-40eb-aa21-1c1b4c4068eb",
-      "title": "на прожект ліст botoom sheet має підніматись під топбар і ховати recent асайментс",
-      "createdAt": "2026-07-27T13:10:52.098Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "5ebb5625-d7da-4f63-b4ed-e03ef53da175",
       "title": "Фікс create selection UI from scanner",
       "createdAt": "2026-07-27T13:42:42.177Z",
