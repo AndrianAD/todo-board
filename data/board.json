@@ -9,13 +9,6 @@
       "status": "in_progress"
     },
     {
-      "id": "8e7d572d-3bd7-455b-b3eb-577fb610b3b9",
-      "title": "Legal hold не працює на видалення селекшенах",
-      "createdAt": "2026-07-28T14:03:39.020Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "9f1b9b94-77a5-4618-b79c-09606a88d2bf",
       "title": "на sub-items фоки не грузяться, постійний loader",
       "createdAt": "2026-07-28T14:02:29.533Z",
