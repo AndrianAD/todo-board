@@ -21,13 +21,6 @@
       "createdAt": "2026-07-28T14:02:29.533Z",
       "assigneeId": null,
       "status": "in_progress"
-    },
-    {
-      "id": "cebf9d67-ff71-4590-a55e-45ea436c5a3f",
-      "title": "Фікс Біометрики при старті і після 15 хв",
-      "createdAt": "2026-07-28T13:40:15.318Z",
-      "assigneeId": null,
-      "status": "in_progress"
     }
   ]
 }
