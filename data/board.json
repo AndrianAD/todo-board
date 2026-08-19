@@ -9,13 +9,6 @@
       "status": "in_progress"
     },
     {
-      "id": "52e4b1b0-93e1-47f6-91cd-7e00aa6c0b5e",
-      "title": "на асаймент лісті немає фільтра вгорі Counter/Approver",
-      "createdAt": "2026-07-27T12:21:25.625Z",
-      "assigneeId": null,
-      "status": "in_progress"
-    },
-    {
       "id": "356953cd-306b-4104-8e7b-b6b72b182f05",
       "title": "Не працює last visited screen",
       "createdAt": "2026-07-27T12:35:24.476Z",
